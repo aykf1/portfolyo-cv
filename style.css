@@ -1,0 +1,59 @@
+/* Tüm sayfanın arka planını ve yazı tipini ayarlayalım */
+body {
+    background-color: #f4f7f6; /* Hafif grimsi, gözü yormayan şık bir arka plan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern mühendislik fontu */
+    color: #333333; /* Koyu gri yazı rengi (tam siyah yapmıyoruz ki şık dursun) */
+    line-height: 1.6; /* Yazıların arasındaki dikey boşluk */
+    padding: 40px; /* Sayfanın kenarlarından içeriye doğru boşluk */
+    margin: 0;
+}
+
+/* Ana başlığımızı (ismini) özelleştirelim */
+h1 {
+    color: #2c3e50; /* Koyu lacivert/mavi tonu */
+    font-size: 2.5rem; /* Başlığın büyüklüğü */
+    border-bottom: 3px solid #3498db; /* Altına şık mavi bir çizgi çekiyoruz */
+    padding-bottom: 10px;
+}
+
+/* Alt başlıkları düzenleyelim */
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+/* Hakkımda, Yetenekler ve İletişim kutularını (div) güzelleştirelim */
+div {
+    background-color: #ffffff; /* Kutuların içi bembeyaz olsun */
+    padding: 20px; /* Kutunun içindeki yazıların kenara yapışmaması için boşluk */
+    margin-bottom: 20px; /* Kutuların alt alta birbirine yapışmaması için dış boşluk */
+    border-radius: 8px; /* Köşeleri hafifçe yuvarlatıp yumuşatalım */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Altına çok hafif, modern bir gölge */
+    max-width: 800px; /* Sayfa çok genişlese bile kutular devasa olmasın, şık dursun */
+}
+
+/* Yetenekler listesini daha düzenli yapalım */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px; /* Liste elemanlarının arası biraz açılsın */
+    color: #555555;
+}
+
+/* İletişim linkini şık bir butona dönüştürelim */
+a {
+    display: inline-block;
+    background-color: #3498db; /* Mavi buton rengi */
+    color: #ffffff; /* Beyaz yazı rengi */
+    padding: 10px 20px; /* Butonun büyüklüğü */
+    text-decoration: none; /* Altındaki klasik çizgiyi kaldırıyoruz */
+    border-radius: 5px; /* Buton köşelerini yuvarlatma */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Renk değişimi yumuşak olsun */
+}
+
+/* Fareyle butonun üzerine gelindiğinde (hover) ne olacağını ayarlayalım */
+a:hover {
+    background-color: #2980b9; /* Biraz daha koyu bir maviye dönsün */
+}
